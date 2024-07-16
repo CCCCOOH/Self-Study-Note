@@ -1,0 +1,54 @@
+# Java 爪洼
+
+
+
+## 版本关系
+
+**Java** 分为三个版本
+
+- **Java SE**: Standard Edition
+- **Java EE**: Enterprise Edition
+- **Java ME**: Micro Edition
+
+其中，**SE** 是标准版，**EE** 面向企业开发，**ME** 面向嵌入式开发。对于初学者来说，学习标准版就好了，**ME** 版本不用学，**EE** 是进阶学习需要掌握的（有更多的接口）。
+
+他们之间的关系如图：
+
+![image-20240716155509507](C:\Users\谌颖\AppData\Roaming\Typora\typora-user-images\image-20240716155509507.png)
+
+> 参考[廖雪峰的官网](https://www.liaoxuefeng.com/wiki/1252599548343744/1255876875896416)
+
+## 两个名词
+
+### JDK
+
+> JDK: Java Development Kit
+
+开发环境的工具，包含了 **JRE** 等一系列工具，所以学习 Java，当然要安装 **JDK** 了。
+
+### JRE
+
+> JRE: Java Runtime Environment
+
+JRE 就是运行 Java 字节码的虚拟机。
+
+其他名词对于初学者来说比较拗口这里跳过。
+
+## 安装 JDK
+
+### 下载
+
+从 **[Oracle](https://www.oracle.com/cn/java/technologies/downloads/#jdk22-windows)** 官网安装最新稳定版的 JDK(链接给了 JDK22)
+
+> Window 优先选择 **x64 MSI 安装程序**
+
+### 设置环境变量
+
+安装完后需要设置一个 `JAVA_HOME` 的环境变量，它指向 JDK 的安装目录。(所有教程仅代表 Windows)
+
+>  `C:\Program Files\Java\jdk-22` 为安装目录 
+
+在**环境变量**中添加这一条: `Path=%JAVA_HOME%\bin;<C:\Program Files\Java\jdk-22>`
+
+cmd 中输入: `javar -version`，正常显示信息即可。
+
