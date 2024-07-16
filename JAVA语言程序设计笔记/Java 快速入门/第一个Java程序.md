@@ -20,11 +20,11 @@ public static Hello {
 
 Java 源码只是一个文本文件`Hello.java`，需要使用编译工具`javac`将其编译成字节码 `Hello.class`，然后用`java`命令执行这个字节码文件。
 
-![image-20240716162310062](C:\Users\谌颖\AppData\Roaming\Typora\typora-user-images\image-20240716162310062.png)
+![image-20240716162310062](https://raw.githubusercontent.com/CCCCOOH/PicturesBed/master/202407161642649.png)
 
 > 图片参考[廖雪峰的官网](https://www.liaoxuefeng.com/wiki/1252599548343744/1255878730977024)
 
-![image-20240716162856416](C:\Users\谌颖\AppData\Roaming\Typora\typora-user-images\image-20240716162856416.png)
+![image-20240716162856416](https://raw.githubusercontent.com/CCCCOOH/PicturesBed/master/202407161642411.png)
 
 - 创建 Hello.java 编辑好代码
 - 终端中键入 javac Hello.java 
@@ -34,7 +34,7 @@ Java 源码只是一个文本文件`Hello.java`，需要使用编译工具`javac
 
 `java Hello.java` 可以理解为直接编译运行一条龙服务
 
-![image-20240716163150680](C:\Users\谌颖\AppData\Roaming\Typora\typora-user-images\image-20240716163150680.png)
+![image-20240716163150680](https://raw.githubusercontent.com/CCCCOOH/PicturesBed/master/202407161642963.png)
 
 ## 总结
 
